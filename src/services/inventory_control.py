@@ -29,9 +29,11 @@ class InventoryMapping:
     def check_recipe_availability(self, recipe: Recipe) -> bool:
         result = True
         for ingredient in recipe:
-            if ingredient in self.inventory:
-                result = True
-            if recipe[ingredient] <= self.inventory[ingredient]:
+            has_ingredient = ingredient in self.inventory
+            if (
+                has_ingredient
+                and recipe[ingredient] <= self.inventory[ingredient]
+            ):
                 result = True
             else:
                 return False
