@@ -5,7 +5,7 @@ from src.models.ingredient import Ingredient, Restriction  # noqa: F401, E261, E
 def test_ingredient():
     ingredient_1 = Ingredient("farinha")
     ingredient_2 = Ingredient("farinha")
-    ingredient_3 = Ingredient("tomato")
+    ingredient_3 = Ingredient("presunto")
 
     assert ingredient_1.name == "farinha"
 
