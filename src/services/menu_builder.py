@@ -12,7 +12,7 @@ class MenuBuilder:
         self.menu_data = MenuData(data_path)
         self.inventory = InventoryMapping(inventory_path)
 
-    def make_order(self, dish_name: str) -> None:
+    def make_order(self, dish_name: str):
         try:
             curr_dish = [
                 dish
@@ -26,4 +26,14 @@ class MenuBuilder:
 
     # Req 4
     def get_main_menu(self, restriction=None) -> List[Dict]:
-        pass
+        result = []
+        for dish in self.menu_data.create_dishes():
+            if restriction not in dish.get_restrictions():
+                data = {
+                    "dish_name": dish.name,
+                    "ingredients": dish.get_ingredients(),
+                    "price": dish.price,
+                    "restrictions": dish.get_restrictions(),
+                }
+                result.append(data)
+        return result
