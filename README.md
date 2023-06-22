@@ -1,13 +1,17 @@
-# :construction: README customizado em construção ! :construction:
-Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Chapa Quente - Ferramenta de Construção de Cardápios
+Este é um projeto de uma ferramenta de construção de cardápios para o Restaurante Chapa Quente. A finalidade dessa ferramenta é permitir que o restaurante possa gerar seus cardápios de maneira simples, levando em consideração restrições alimentares e a disponibilidade de ingredientes em estoque.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+# Motivação
+Atualmente, a gestão das receitas e do estoque do restaurante é feita de forma ineficiente, utilizando arquivos CSV. Por esse motivo, as pessoas fundadoras do estabelecimento decidiram investir em uma solução que melhore essa gestão.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+# Estrutura do Projeto
+Um time já iniciou o desenvolvimento desse projeto e preparou uma estrutura inicial para facilitar a sua continuidade. Ao longo desse projeto, você será responsável por algumas tarefas-chave:
 
+# Construir testes para as classes já implementadas, garantindo a qualidade e a robustez do código.
+Implementar uma nova classe responsável por mapear os pratos do restaurante juntamente com suas respectivas receitas, incluindo ingredientes e quantidades necessárias.
+Desenvolver uma classe responsável por gerar os cardápios que serão exibidos aos clientes do restaurante.
+Criar uma classe para fazer a gestão do estoque de ingredientes, mantendo as quantidades atualizadas e controlando a disponibilidade dos itens.
+Próximos Passos
+Com a conclusão dessas tarefas, a ferramenta estará pronta para ser utilizada pelo Restaurante Chapa Quente. Ela trará melhorias significativas na gestão das receitas, estoque e na criação dos cardápios.
+
+Este projeto foi desenvolvido por Gus Ferreira. Qualquer dúvida, entre em contato através do email gus.116506@gmail.com.
